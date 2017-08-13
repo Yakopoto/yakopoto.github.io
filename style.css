@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+body{
+	min-height: 100%;
+    max-height: 100%;
+}
+
+#first {
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('first.jpg');
+	z-index: 1000;
+}
+
+#photo {
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	z-index: 1000;
+}
+
+#phot {
+	vertical-align: middle;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+nav {
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 1000;
+  	width: 100%;
+}
+
+ul {
+	float: right;
+	padding-top: 10px;
+}
+
+li {
+	display: inline-block;
+	color: white;
+	margin: 0px 20px 0px 20px;
+}
+
+.helper {
+    display: inline-block;
+    height: 30%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+    max-height: 100px;
+    display:block;
+    margin:auto;
+    z-index: 1000;
+}
+
+
+.about {
+	 height: 55px;
+	 text-align: center;
+	 width: 30%;
+	 margin: auto;
+	 z-index: 1000;
+	 /*background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+.about span {
+	color: white;
+	font-weight: bold;
+	margin: auto 0;
+	z-index: 10000;
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+#email {
+	margin-top: 10px;
+	font-size: 10px;
+	margin: auto 0;
+
+}
+
+.logo {
+	float:left;
+}
